@@ -2,7 +2,7 @@
 FILE_PATH_SAMPLE = 'input/day02_sample.txt'
 FILE_PATH = 'input/day02.txt'
 
-def main(file_path, part2 = False):
+def main(file_path):
 
     with open(file_path) as f:
         lines = f.read()
